@@ -6,6 +6,18 @@
     android:layout_height="wrap_content"
     android:clipChildren="true"
     >
+    
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        tools:src="@tools:sample/backgrounds/scenic"
+        tools:visibility="visible" />
 
   <include layout="@layout/md_dialog_stub_title"/>
 
